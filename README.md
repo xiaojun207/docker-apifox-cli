@@ -4,6 +4,9 @@ Apifox CLI 命令行镜像运行
 ## Apifox CLI 命令行运行
 Apifox CLI 主要用来以命令行方式运行 Apifox 的 测试用例或测试套件。
 
+## Dockerfile on Github
+https://github.com/xiaojun207/docker-apifox-cli
+
 ## 快速启动
 
 ```
@@ -42,5 +45,5 @@ Options:
 ```
 
 
-## 更多参数，参考
+## 更多参数，参考官方文档
 https://www.apifox.cn/help/cli/#%E5%AE%9E%E6%97%B6%E8%BF%90%E8%A1%8C%E5%9C%A8%E7%BA%BF%E6%95%B0%E6%8D%AE
