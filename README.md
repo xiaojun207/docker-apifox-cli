@@ -9,6 +9,13 @@ https://github.com/xiaojun207/docker-apifox-cli
 
 ## 快速启动
 
+```shell
+docker run --rm xiaojun207/apifox-cli:latest apifox run http://xxx/api/v1/api-test/ci-config/xxxx/detail?token=xxxx -r html,cli 
+```
+* 在 Apifox 的测试用例和测试套件选择持续集成，生成如下命令: apifox run http://xxx/api/v1/api-test/ci-config/xxxx/detail?token=xxxx -r html,cli
+
+或
+
 ```
 docker run --rm -v /data/apifox-cli.json:/data/apifox-cli.json  xiaojun207/apifox-cli:latest apifox run /data/apifox-cli.json -r cli,html,json -n 100
 ```
